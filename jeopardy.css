@@ -1,0 +1,39 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#jeopardy {
+  background-color: #00609b;
+  color: white;
+  font-size: 11pt;
+  text-align: center;
+  border-collapse: collapse;
+  width: 40em;
+  padding: 30pt;
+  margin: 20pt;
+  border: solid 1px white;
+}
+
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 40em;
+  height: 6em;
+  padding: 30pt;
+}
+
+tr {
+  height: 6em;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+#jeopardy th, #jeopardy td {
+  border: solid 1px white;
+}
